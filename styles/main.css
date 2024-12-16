@@ -1,0 +1,47 @@
+:root {
+    --primary-light: #EAE8E4;
+    --secondary-dark: #2D2D2D;
+    --purple-dark: #3C0C60;
+    --purple-mid: #7D26C9;
+    --purple-light: #DFBBFE;
+    --background-card-imgs: #FCFCFD;
+    --backgroud-card: #FFFFFF;
+    --border-radius-primary: 24px;
+    --text-size-h2: 40px;
+    --text-size-h3: 24px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', sans-serif;                         
+    background-color: var(--primary-light);
+}
+
+.wrapper {
+    max-width: 1206px;
+    margin: 0 auto;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+h2 {
+    font-size: var(--text-size-h2);
+}
+
+h3 {
+    font-size: var(--text-size-h3);
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+  
